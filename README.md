@@ -23,9 +23,16 @@ With support for **proxy configurations**, it's your go-to utility for web debug
 Note: The tool primarily uses the requests library. Ensure Python 3.6 or higher is installed.
 
 ## 🛠️ Usage
-1. Run Interactively
+A. Run within a Jupyter Notebook
+
+  1. Git clone the repository in JupyterHub or directly import the .ipynb file : url_hops_inspector.ipynb
+  2. Launch all cells
+  3. Use the tool interactively
+
+B. Run Interactively in your terminal
    
-  You can run the script interactively in your terminal or within a Jupyter Notebook.
+  You can run the script interactively in your terminal.
+  Change the extension from .ipynb to .py.
   
   Example in Terminal:
 
@@ -33,6 +40,7 @@ Note: The tool primarily uses the requests library. Ensure Python 3.6 or higher 
   python url_hops_inspector.py
   ```
 
+## Demo
   Input in the terminal:
   ```bash
   Please enter the URL to trace: https://bit.ly/3xyzAbc
@@ -68,11 +76,8 @@ Note: The tool primarily uses the requests library. Ensure Python 3.6 or higher 
   Response body (limit 200 chars):
     <html><body>Welcome!</body></html>
   ```
-2. As a Jupyter Notebook
 
-You can open the provided Jupyter Notebook version (url_hops_inspector.ipynb) to use the tool interactively.
-
-3. Using Proxies
+## Using Proxies
 
 To hide your IP address or test from a different location, you can configure a proxy. Here’s an example of how to use one:
     
@@ -120,6 +125,7 @@ Interested in improving URL Hops Inspector? Contributions are welcome! Here’s 
 3. Commit your changes:
   ```bash
   git commit -m "Add my awesome feature"
+```
 4. Push to your branch:
   ```bash
   git push origin my-feature
