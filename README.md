@@ -4,6 +4,8 @@ Inspect and analyze the full chain of **HTTP URL hops** caused by redirections, 
 This Python-based tool follows URL redirect chains, allowing you to inspect **response status codes**, **headers**, and **response body previews** at every step.  
 With support for **proxy configurations**, it's your go-to utility for web debugging, redirect analysis, or understanding how URL shorteners work.
 
+**[View code](https://nbviewer.org/github/Blodarn/url-hops-inspector/blob/main/url-hops-inspector.ipynb)**
+
 ## 🚀 Features
 
 - **Trace URL Hops**: Follow each step in the HTTP redirection chain to the final destination.
