@@ -6,6 +6,8 @@ With support for **proxy configurations**, it's your go-to utility for web debug
 
 **[View code](https://nbviewer.org/github/Blodarn/url-hops-inspector/blob/main/url-hops-inspector.ipynb)**
 
+![URLHopsInspector-Menu](https://github.com/blodarn/url-hops-inspector/blob/main/URLHopsInspector-Menu.png?raw=true)
+
 ## 🚀 Features
 
 - **Trace URL Hops**: Follow each step in the HTTP redirection chain to the final destination.
@@ -114,6 +116,11 @@ from url_hops_inspector import trace_url_jumps_with_details
 - Checking and validating final destinations for campaign/marketing URLs.
 - Analyzing website behavior for redirections or affiliate links.
 - Privacy-friendly request tracing using custom proxies.
+
+## Preview
+
+![URLHopsInspector-Demo_1](https://github.com/blodarn/url-hops-inspector/blob/main/URLHopsInspector-Demo_1.png?raw=true)
+![URLHopsInspector-Demo_2](https://github.com/blodarn/url-hops-inspector/blob/main/URLHopsInspector-Demo_2.png?raw=true)
 
 ## 🤝 Contributing
 
